@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title img >Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="pantalla" disabled>
+        <div class="buttons">
+            <button class="button" id="limpiar" value="C" onclick="c()">C</button>
+            <button class="button" id="siete" value="7" onclick="insertar(7)">7</button>
+            <button class="button" id="ocho" value="8" onclick="insertar(8)">8</button>
+            <button class="button" id="nueve" value="9" onclick="insertar(9)">9</button>
+            <button class="button" id="mas" value="+" onclick="insertar('+')">+</button>
+            <button class="button" id="cuatro" value="4" onclick="insertar(4)">4</button>
+            <button class="button" id="cinco" value="5" onclick="insertar(5)">5</button>
+            <button class="button" id="seis" value="6" onclick="insertar(6)">6</button>
+            <button class="button" id="menos" value="-" onclick="insertar('-')">-</button>
+            <button class="button" id="uno" value="1" onclick="insertar(1)">1</button>
+            <button class="button" id="dos" value="2" onclick="insertar(2)">2</button>
+            <button class="button" id="tres" value="3" onclick="insertar(3)">3</button>
+            <button class="button" id="multiplicar" value="*">*</button>
+            <button class="button" id="dividir" value="/">/</button>
+            <button class="button" id="cero" value="0" onclick="insertar(0)">0</button>
+            <button class="button" id="punto" value="." onclick="">.</button>
+            <button class="button" id="igual" value="=" onclick="igual()">=</button>
+
+        </div>
+    </div>
+</body>
+<script src="./jquery-3.6.4.js"></script>
+//
+<script src="./logicaVal.js"></script>
+
+</html>
+
